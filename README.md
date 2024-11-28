@@ -1,4 +1,4 @@
-# LoneWolfActionSheet_v1.0-Application
+# LoneWolfActionSheet_v1.1-Application
 
 This is an unofficial action sheet desktop application for the Lone Wolf books. This application is not an official product of Lone Wolf/Magnamund.com/Holmgard Press. permission to post this application to Github has been given by Holmgard Press on 27th November 2024.
 
