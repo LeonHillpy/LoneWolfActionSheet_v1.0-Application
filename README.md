@@ -8,4 +8,5 @@ At the moment this is a finished piece of software, however the next change coul
 
 I'm still somewhat new to Python, I'm a full time CS student so If you experience any bugs or issues, please message me here on Github or on discord, username: kajhillos
 
-![Screenshot 2024-11-27 214138](https://github.com/user-attachments/assets/ad90fdf5-ac04-4fe1-bd07-a5e67a3a4813)
+![Screenshot 2024-11-27 214138](https://github.com/user-attachments/assets/2f481065-da36-445b-b82f-25e63743efeb)
+
