@@ -10,3 +10,8 @@ I'm still somewhat new to Python, I'm a full time CS student so If you experienc
 
 ![Screenshot 2024-11-27 214138](https://github.com/user-attachments/assets/2f481065-da36-445b-b82f-25e63743efeb)
 
+As mentioned above, combat is not yet automated but this could be a feature to add at a later date. But for now, the combat window will generate the battle ratio after the user has entered the enemy combat score. The combat window has a working 0 - 9 dice roll.
+
+![Screenshot 2024-11-28 232458](https://github.com/user-attachments/assets/aea100e4-2bad-44d7-844a-ad86ce9d10b1)
+
+
