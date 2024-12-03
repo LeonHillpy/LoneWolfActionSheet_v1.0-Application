@@ -15,7 +15,8 @@ class App(ctk.CTk):
         super().__init__() # Initiates vairiables from parent class in ctk.
 
         # Sets the title of the interface and the size.
-        self.title("Lone Wolf Character Sheet v1.1")
+        self.title("Lone Wolf Character Sheet v1.2")
+        self.iconbitmap("images\icon.ico")
         self.geometry("870x730")
 
         # Load, save sheet
@@ -33,17 +34,17 @@ class App(ctk.CTk):
         self.endurance.place(x=510, y=10)
 
         # Origin Endurance
-        self.original_endurance_label = ctk.CTkLabel(self, text="Max\nEndurance:").place(x=435, y=45)
+        self.original_endurance_label = ctk.CTkLabel(self, text="Base\nEndurance:").place(x=435, y=45)
         self.original_endurance = ctk.CTkEntry(self, width=80)
         self.original_endurance.place(x=510, y=50)
 
         # Combat Score
-        self.combat_score_label = ctk.CTkLabel(self, text="Combat Score:").place(x=600, y=10)
+        self.combat_score_label = ctk.CTkLabel(self, text="Combat Skill:").place(x=600, y=10)
         self.combat_score = ctk.CTkEntry(self, width=80)
         self.combat_score.place(x=690, y=10)
 
         # Origin Combat Score
-        self.original_combat_label = ctk.CTkLabel(self, text="Max\nCombat:").place(x=630, y=45)
+        self.original_combat_label = ctk.CTkLabel(self, text="Base\nCombat:").place(x=630, y=45)
         self.original_combat = ctk.CTkEntry(self, width=80)
         self.original_combat.place(x=690, y=50)
 

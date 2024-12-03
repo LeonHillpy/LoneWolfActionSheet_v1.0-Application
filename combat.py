@@ -1,7 +1,7 @@
 
 from tkinter import *  # Main Tkinter module.
 import customtkinter as ctk  # type: ignore # Module for modernising Tkinter.
-from PIL import Image
+from PIL import Image, ImageTk  # Modules for image processing.
 from random import randrange
 
 def dice_roll(self):
@@ -12,11 +12,12 @@ def combat(self, player_endurance_value, player_combat_value):
     # Create a new window using CTkToplevel for the combat system.
     self.combat_window = ctk.CTkToplevel(self)
 
-    # Set the title and geometry for the new window.
+    # Set the title and geometry for the new window and set resizable to False.
     self.combat_window.title("Lone Wolf Combat System")
     self.combat_window.geometry("1200x720")
+    self.combat_window.resizable(False, False)
 
-    # Make the new window modal
+    # Set window priority
     self.combat_window.grab_set()  # Prevent interaction with other windows
     self.combat_window.attributes('-topmost', True)  # Keep it on top
 
